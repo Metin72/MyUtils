@@ -10,7 +10,7 @@ public class MyUtils {
 	}
 	
 	public static float ucgenAlan(float a,float b, float c) {
-		    float u=(a+b+c)/2;
+		float u=(a+b+c)/2;
 	        float alan=(float) Math.sqrt(u*(u-a)*(u-b)*(u-c));
 		return alan;
 	}
@@ -31,8 +31,8 @@ public class MyUtils {
 		
 		for(int i=0;i<x.length;i++) {
 			
-		  dizi[i]=3*i*i-2*Math.exp(i)+Math.sqrt(i);
-		  System.out.println("Sonuc1:"+dizi[i]);
+                        dizi[i]=3*i*i-2*Math.exp(i)+Math.sqrt(i);
+                        System.out.println("Sonuc1:"+dizi[i]);
 		  
 		}
 		for(int j=0;j<x.length;j++) {
